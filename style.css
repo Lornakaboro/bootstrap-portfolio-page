@@ -1,0 +1,38 @@
+
+.nav-link {
+    color: #000;
+}
+
+.main {
+  background-image: url("/images/desktop-base.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 779px;
+  margin-top: 0;
+  background: ;
+  background-position: top -30px;
+  /* background-attachment: fixed; */
+  /* position: absolute; */
+}
+
+.content {
+ margin-top: 200px;
+ margin-left: 260px;
+}
+
+.connect {
+ color: #396df2;
+
+}
+
+.social-media ,
+.list-group-item {
+    border: 0;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+}
