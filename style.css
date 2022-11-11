@@ -1,6 +1,5 @@
-
 .nav-link {
-    color: #000;
+  color: #000;
 }
 
 .main {
@@ -9,30 +8,44 @@
   background-repeat: no-repeat;
   height: 779px;
   margin-top: 0;
-  background: ;
   background-position: top -30px;
-  /* background-attachment: fixed; */
-  /* position: absolute; */
 }
 
 .content {
- margin-top: 200px;
- margin-left: 260px;
+  margin-top: 200px;
+  margin-left: 260px;
 }
 
 .connect {
- color: #396df2;
-
+  color: #396df2;
 }
 
-.social-media ,
-.list-group-item {
-    border: 0;
+.social-media-item {
+  border: 0;
 }
 
 .card {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.work-pointers h3 {
+  font-weight: 700;
+  color: #344563;
+}
+
+.work-pointers-bullets {
+  background: #7a869a;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  gap: 30px;
+}
+
+.tags {
+  list-style: none;
+  gap: 15px;
+  padding-left: 0;
 }
