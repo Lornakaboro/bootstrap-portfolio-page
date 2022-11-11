@@ -25,8 +25,7 @@
 
 }
 
-.social-media ,
-.list-group-item {
+.social-media-item {
     border: 0;
 }
 
@@ -36,3 +35,27 @@
     gap: 30px;
     margin-bottom: 30px;
 }
+
+.work-pointers h3 {
+    font-weight: 700;
+    color: #344563;
+  }
+  
+.work-pointers-bullets {
+    background: #7a869a;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    gap: 30px;
+  }
+
+  .tags {
+    list-style: none;
+    /* justify-content: space-between; */
+    gap: 15px;
+    padding-left: 0;
+  }
+
+  .tags li {
+    
+  }

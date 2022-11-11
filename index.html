@@ -6,14 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c6cb015206.js" crossorigin="anonymous"></script>
     <title>My Portfolio</title>
 </head>
 <body>
     <!-- Nav bar -->
-    <nav class="navbar navbar-primary mt-0 navbar-expand pb-0">
+    <nav class="navbar navbar-primary mt-0 navbar-expand-md pb-0">
         <div class="container-fluid my-0 mx-5">
             <a href="#" class="navbar-brand fw-bold">My Logo</a>
-            <ul class="navbar-nav ms-auto d-flex text-dark">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- <nav class="hamburger-icon d-block d-md-none">
+              <i class="fa fa-bars" aria-hidden="true"></i>
+            </nav> -->
+        
+            <ul class="navbar-nav ms-auto d-flex flex-row text-dark">
                 <li class="nav-item">
                     <a href="#" class="nav-link">Portfolio</a>
                 </li>
@@ -31,34 +41,34 @@
     <section class="main">
         <div class="container mt-5 d-grid">
             <div class="content">
-            <h1 class="fw-bold me-5"> Hi Im Lorna <br> Glad to see you!</h1>
-            <p class="lh-1.75rem mt-4" style="width: 57.5rem; height: 6rem;">I&#39;m a software developer! I can help you build a product , feature or website 
-                Look through some of my work and experience! If you like what you see and have S
-                a project you need coded, don&#39;t hestiate to contact me.</p>
+            <h1 class="fw-bold me-5"> Hi we are Lorna and Ibrahim <br> Glad to see you!</h1>
+            <p class="lh-1.75rem mt-4" style="width: 57.5rem; height: 6rem;">We a software developers! We can help you build a product , feature or website 
+                Look through some of our work and experience! If you like what you see and have S
+                a project you need coded, don&#39;t hestiate to contact us.</p>
             <h4 class="connect fs-6">LET&#39;S CONNECT</h4>
             
             <ul class="social-media list-group list-group-horizontal borderless">
-                <li class="list-group-item">
+                <li class="list-group-item social-media-item">
                   <a href="https://twitter.com/KaboroLorna">
                     <img class="icon image-fluid" src="./images/twitter.png" alt="twitter-icon">
                   </a>
                 </li>
-                <li class="list-group-item">
+                <li class="list-group-item social-media-item">
                   <a href="https://www.linkedin.com/in/lorna-kaboro-23620b242/">
                     <img class="icon" src="./images/linkedin.png" alt="linkedin-icon">
                   </a>
                 </li>
-                <li class="list-group-item">
+                <li class="list-group-item social-media-item">
                   <a href="!#">
                     <img class="icon" src="./images/medium.png" alt="medium-icon"> 
                   </a>
                 </li>
-                <li class="list-group-item">
+                <li class="list-group-item social-media-item">
                   <a href="https://github.com/Lornakaboro">
                     <img class="icon" src="./images/github.png" alt="github-icon">
                   </a>
                 </li>
-                <li class="list-group-item">
+                <li class="list-group-item social-media-item">
                   <a href="!#">
                     <img class="icon" src="./images/hand.png" alt="hand-icon">
                   </a>
@@ -75,61 +85,59 @@
         <div class="card d-flex flex-row justify-content-between mb-6" style="width: 72.25rem;">
             <img src="./images/tonic-desktop.png" class="card-img-top w-50" alt="tonic-image">
             <div class="card-body">
-              h5 class="card-title">Tonic</h5>
-              <div class="work-pointers">
-                <h3>CANOPY</h3>
-                <div class="work-pointers-bullets"></div>
-                <p>Back End Dev</p>
-                <div class="work-pointers-bullets"></div>
-                <p>2015</p>
+              <h5 class="card-title">Tonic</h5>
+              <div class="work-pointers d-flex">
+                <h5>CANOPY</h5>
+                <ul class="list-group list-group-horizontal">
+                 <li class="list-group-item">Back End Dev</li>
+                 <li class="list-group-item">2015</li>
+                </ul>
              </div>
              <p class="work-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-             <ul class="tags">
+             
+             <ul class="tags d-flex">
               <li class="tag">
-               <a href="#">html</a>
+               <a href="#"><span class="badge bg-primary">Html</span></a>
                </li>
               <li class="tag">
-               <a href="#">Ruby on rails</a>
+               <a href="#"><span class="badge bg-primary">Css</span></a>
              </li>
               <li class="tag">
-               <a href="#">css</a>
+               <a href="#"><span class="badge bg-primary">JavaScript</span></a>
              </li>
-              <li class="tag">
-               <a href="#">javaScript</a>
-             </li>
-            </ul>          
+            </ul>
               <a href="#" class="btn btn-primary">See Project</a>
             </div>
         </div>
      </div>
 
      <div class="container">
-      <div class="card d-flex flex-row justify-content-between mb-6" style="width: 72.25rem;">
+      <div class="card d-flex flex-row justify-content-between mb-5" style="width: 72.25rem;">
           <img src="./images/facebook.png" class="card-img-top w-50" alt="tonic-image">
           <div class="card-body">
             <h2 class="work-title">Multi-Post Stories</h2>
        
-            <div class="work-pointers">
+            <div class="work-pointers d-flex">
               <h3>FACEBOOK</h3>
-              <div class="work-pointers-bullets"></div>
-              <p>Full Stack Dev</p>
-              <div class="work-pointers-bullets"></div>
-              <p>2015</p>
+              <ul class="list-group list-group-horizontal">
+               <li class="list-group-item">Full Stack Dev</li>
+               <li class="list-group-item">2015</li>
+              </ul>
            </div>
     
             <p class="work-description">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
-            <ul class="tags">
+            <ul class="tags d-flex">
               <li class="tag">
-               <a href="#">html</a>
+               <a href="#"><span class="badge bg-primary">Html</span></a>
                </li>
               <li class="tag">
-               <a href="#">Ruby on rails</a>
+               <a href="#"><span class="badge bg-primary">Ruby on rails</span></a>
              </li>
               <li class="tag">
-               <a href="#">css</a>
+               <a href="#"><span class="badge bg-primary">Css</span></a>
              </li>
               <li class="tag">
-               <a href="#">javaScript</a>
+               <a href="#"><span class="badge bg-primary">JavaScript</span></a>
              </li>
             </ul>
             <a href="#" class="btn btn-primary">See project</a>         
@@ -140,32 +148,32 @@
   
 
      <div class="container">
-      <div class="card d-flex flex-row justify-content-between mb-6 flex-row-reverse" style="width: 72.25rem;">
+      <div class="card d-flex flex-row justify-content-between mb-5 flex-row-reverse" style="width: 72.25rem;">
           <img src="./images/multi-post-stories-desktop.png" class="card-img-top w-50" alt="tonic-image">
           <div class="card-body">
             <h2 class="work-title">Facebook 360</h2>
         
-            <div class="work-pointers">
+            <div class="work-pointers d-flex">
                <h3>FACEBOOK</h3>
-               <div class="work-pointers-bullets"></div>
-               <p>Full Stack Dev</p>
-               <div class="work-pointers-bullets"></div>
-               <p>2015</p>
+               <ul class="list-group list-group-horizontal">
+                <li class="list-group-item">Full Stack Dev</li>
+                <li class="list-group-item">2015</li>
+               </ul>
             </div>
    
            <p class="work-description">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
-           <ul class="tags">
+           <ul class="tags d-flex">
              <li class="tag">
-              <a href="#">html</a>
+              <a href="#"><span class="badge bg-primary">Html</span></a>
               </li>
              <li class="tag">
-              <a href="#">Ruby on rails</a>
+              <a href="#"><span class="badge bg-primary">Ruby on rails</span></a>
             </li>
              <li class="tag">
-              <a href="#">css</a>
+              <a href="#"><span class="badge bg-primary">Css</span></a>
             </li>
              <li class="tag">
-              <a href="#">javaScript</a>
+              <a href="#"><span class="badge bg-primary">JavaScript</span></a>
             </li>
            </ul>
            <a href="#" class="btn btn-primary">See project</a>         
@@ -175,32 +183,32 @@
 
    
  <div class="container">
-  <div class="card d-flex flex-row justify-content-between mb-6 flex-row-reverse" style="width: 72.25rem;">
+  <div class="card d-flex flex-row justify-content-between mb-5 flex-row-reverse" style="width: 72.25rem;">
       <img src="./images/uber-navigation.png" class="card-img-top w-50" alt="tonic-image">
       <div class="card-body">
         <h2 class="work-title">Uber Navigation</h2>
-        
-        <div class="work-pointers">
-          <h3>Uber</h3>
-          <div class="work-pointers-bullets"></div>
-          <p>Lead Developer</p>
-          <div class="work-pointers-bullets"></div>
-          <p>2015</p>
-       </div>
+  
+            <div class="work-pointers d-flex">
+              <h3>FACEBOOK</h3>
+              <ul class="list-group list-group-horizontal">
+               <li class="list-group-item">Full Stack Dev</li>
+               <li class="list-group-item">2015</li>
+              </ul>
+           </div>
 
         <p class="work-description">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
-        <ul class="tags">
+        <ul class="tags d-flex">
           <li class="tag">
-           <a href="#">html</a>
+           <a href="#"><span class="badge bg-primary">Html</span></a>
            </li>
           <li class="tag">
-           <a href="#">Ruby on rails</a>
+           <a href="#"><span class="badge bg-primary">Ruby on rails</span></a>
          </li>
           <li class="tag">
-           <a href="#">css</a>
+           <a href="#"><span class="badge bg-primary">Css</span></a>
          </li>
           <li class="tag">
-           <a href="#">javaScript</a>
+           <a href="#"><span class="badge bg-primary">JavaScript</span></a>
          </li>
         </ul>
         <a href="#" class="btn btn-primary">See project</a>        
